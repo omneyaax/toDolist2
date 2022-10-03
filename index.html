@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/task.css">
+   
+
+</head>
+<body >
+    <button id="thememode" ><span id="light">Change</span> Mode   <i style="font-size: large;" class="fa-regular fa-lightbulb"></i> </button>
+<div class="container">
+   <h1 id="hed">TO DO LIST </h1>
+<div class="taskss">
+
+
+    <div id="nt">
+    <input id="in1" type="text" placeholder="Task Name">
+    <div id="alert1" class="d-none alert alert-danger" role="alert">
+        Please Enter a Valid Task Name!
+      </div>
+      
+    <input id="in2" type="text" placeholder="Task Picture">
+    <div id="alert2" class=" d-none alert alert-danger" role="alert">
+         Please Enter a Valid Task Picture URL!
+      </div>
+      
+    <input id="in3" type="date" placeholder="Task Date">
+    <div id="alert3" class="d-none alert alert-danger" role="alert">
+         Please Enter a Valid Task Date!
+      </div>
+    
+    <button id="add">Add</button>
+ 
+</div>
+
+
+
+
+    </div>
+
+    
+<div id="list" class="lsst d-none">
+   
+    </div>
+
+
+
+
+    <div class="modal hidee d-block" style="background-color:rgba(0, 0, 0, 0.47); tabindex="-1">
+        <div class="modal-dialog " 
+        ">
+          <div class="modal-content " style="background-color:rgb(122, 116, 116)" >
+            <div class="modal-header " style="background-color:rgb(122, 116, 116)">
+              <h5 class="modal-title " style="background-color:rgb(122, 116, 116); color:#efd01f" >Error</h5>
+              
+            </div>
+            <div id="modalbodyy" class="modal-body" style="color:white;">
+          <!-- ////// -->
+            </div>
+            <div class="modal-footer">
+              <button id="okay" type="button" class="btn btn-secondary"  style="background-color:#efd01f; color:#393a3b " data-bs-dismiss="modal">Ok</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/task.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

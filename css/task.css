@@ -1,0 +1,338 @@
+body{
+    height: 100vh;
+    background-color: #393a3b ;
+}
+
+body h1{
+    color: #efd01f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+position: relative;
+    /* z-index: 50000000000; */
+
+}
+
+#thememode {
+    background-color: #efd01f;
+    width: 200px;
+    height: 60px;
+    margin: 20px;
+    margin-top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 5px 1px;
+}
+
+#thememode:hover {
+border-color: #efd01f;
+border-top: none;
+background-color: white;
+color: #efd01f;
+}
+
+
+
+.lightmodetasks{
+    color: white;
+    background-color: #d1d3d4;
+
+}
+.lightmodewindow{
+    background-color: white;
+    
+}
+.taskss{
+    width: 90%;
+   
+    left: 50%;
+    background: rgb(122, 116, 116);
+    border-radius: 10px;
+   margin-top: 300px;
+   
+    position: absolute;
+height: auto;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+
+}
+
+#nt{
+    position: relative;
+    padding: 30px 20px;
+}
+#nt input{
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    margin-left:0px ;
+    margin-right: 10px;
+}
+
+#nt input:focus{
+    outline: none;
+    border-color: #efd01f;
+}
+#nt button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #efd01f;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: 70px;
+    margin: 20px;
+    margin-right:0px;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+   
+    
+}
+
+
+
+#list{
+ 
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #efd01f;
+    padding: 30px 20px;
+  font-size: x-large !important;
+    margin: auto; 
+    margin-top:600px;
+   
+    flex-wrap: wrap;
+    height: fit-content;
+    
+}
+
+.lightAdd:hover {
+    color: #efd01f !important;
+    
+}
+
+    
+  
+
+.lightbody {
+    background-color: white;
+    color: black !important;
+}
+
+.lighth{
+    color: black 
+}
+
+.lightmodal{
+    background-color: rgba(0, 0, 0, 0.47);
+    color: black;
+}
+
+.lightbutton {
+    background-color:#393a3b  ;
+    color: white;
+    box-shadow:#efd01f ;
+    border-top: none;
+
+}
+
+.lightbutton:hover {
+    background-color: #393a3b  !important;
+    color: #efd01f;
+    transition: all 0.5s;
+}
+
+.lightAdd {
+    background-color: rgba(159, 151, 151, 0.768) !important;
+    color: #393a3b !important;
+}
+.lightInput{
+    background-color: #efd01f;
+}
+
+.lightlist{
+    color: black;
+
+}
+
+.none{
+    display: none;
+}
+
+.lsst{
+    cursor: pointer;
+    width: 100%;
+    
+    border-radius: 5px;
+    align-items: center;
+   
+  flex-wrap: nowrap;
+    border: 1px solid #939697;
+   
+    background-color: rgba(159, 151, 151, 0.768);
+    height: fit-content;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+   
+}
+.lsst {
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+    margin: 10px;
+}
+
+
+
+.taskss #nt .alert {
+    display: none ;
+}
+
+.lsst {
+    width: 100%;
+}
+.lsst  button {
+    background-color: #393a3b ;
+    color: #ffffff;
+    border: none;
+    margin: auto;
+    margin-right: 0px;
+    outline: none;
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+#list h3 {
+    text-align: center !important;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+
+
+
+
+.hide3{
+visibility: hidden;
+transition:all 1s;
+}
+
+.hide2{
+    display:none
+}
+
+.show{
+    display: block;
+}
+
+.hidee{
+    visibility: hidden;
+}
+ 
+.showmodal{
+    visibility: visible;
+}
+
+ .checked
+{
+    
+    text-decoration: line-through;
+}
+
+
+@media (max-width:750px){
+
+    .taskss {
+        width: 90% !important;
+        margin-top:  200px !important;
+    }
+
+    #nt{
+        position: relative;
+        padding: 20px 20px;
+    }
+    #nt input{
+        width: 100%;
+        height: 45px;
+        padding: 12px;
+        color: #111111;
+        font-weight: 500;
+        position: relative;
+        border-radius: 5px;
+        font-family: 'Poppins',sans-serif;
+        font-size: 15px;
+        border: 2px solid #d1d3d4;
+    }
+    
+    #nt input:focus{
+        outline: none;
+        border-color: #efd01f;
+    }
+    #nt button{
+        position: relative;
+        float: right;
+        font-weight: 500;
+        font-size: 16px;
+        background-color: #efd01f;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        outline: none;
+        width: 100%;
+        height: 45px;
+        border-radius: 5px;
+        font-family: 'Poppins',sans-serif;
+    }
+    
+    
+    #list{
+     
+       position: absolute;
+        width: 98%;
+        left: 0;
+        
+       margin-top: 450px ;
+      
+    }
+    
+    .lsst img {
+margin:20px;
+margin-right:10px ;
+margin-left:10px ;
+    }
+    .lsst p {
+        margin:10px;
+            }
+    
+    .lsst button{
+       
+       float: right;
+       width: 30px !important;
+        
+    }
+
+#thememode{
+    margin-left: 22%;
+}
+   
+}
